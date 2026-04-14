@@ -106,7 +106,7 @@
 
       <!-- Logo -->
       <a href="index.html" class="nav__logo" aria-label="Rocky Mountain Skin — Home">
-        <img src="images/logo.png" alt="Rocky Mountain Skin logo" class="nav__logo-img" width="101" height="40">
+        <img src="images/logo.png" alt="Rocky Mountain Skin logo" class="nav__logo-img" width="40" height="40">
         <span class="nav__logo-text">
           <span class="nav__logo-name">Rocky Mountain Skin</span>
           <span class="nav__logo-tagline">South Salt Lake, UT</span>
@@ -122,16 +122,17 @@
           <!-- Services dropdown -->
           <a href="#services" class="nav__link" aria-haspopup="true">Services</a>
           <ul class="nav__dropdown" role="list" aria-label="Services submenu">
-            <li><a href="facials.html" class="nav__dropdown-link">Facials</a></li>
-            <li><a href="body-treatments.html" class="nav__dropdown-link">Body Treatments</a></li>
-            <li><a href="waxing.html" class="nav__dropdown-link">Waxing</a></li>
-            <li><a href="brow-and-lash.html" class="nav__dropdown-link">Brow &amp; Lash</a></li>
+            <li><a href="facials.html" class="nav__dropdown-link">Custom Facials</a></li>
+            <li><a href="hydrafacial.html" class="nav__dropdown-link">HydraFacial</a></li>
             <li><a href="microneedling.html" class="nav__dropdown-link">Microneedling</a></li>
             <li><a href="laser.html" class="nav__dropdown-link">Laser Hair Reduction</a></li>
-            <li><a href="permanent-makeup.html" class="nav__dropdown-link">Permanent Makeup</a></li>
-            <li><a href="advanced-services.html" class="nav__dropdown-link">Advanced Services</a></li>
+            <li><a href="brow-and-lash.html" class="nav__dropdown-link">Brow &amp; Lash</a></li>
+            <li><a href="house-calls.html" class="nav__dropdown-link">House Calls</a></li>
           </ul>
         </li>
+        <li class="nav__item"><a href="rewards.html" class="nav__link">Rewards</a></li>
+        <li class="nav__item"><a href="memberships.html" class="nav__link">Memberships</a></li>
+        <li class="nav__item"><a href="gift-cards.html" class="nav__link">Gift Cards</a></li>
         <li class="nav__item">
           <a href="the-skin-edit.html" class="nav__link">The Skin Edit</a>
         </li>
@@ -155,15 +156,16 @@
 
     <!-- Mobile nav -->
     <nav id="mobile-nav" class="nav__mobile" aria-label="Mobile navigation">
-            <a href="index.html" class="nav__mobile-link">Home</a>
-      <a href="facials.html" class="nav__mobile-link">Facials</a>
-      <a href="body-treatments.html" class="nav__mobile-link">Body Treatments</a>
-      <a href="waxing.html" class="nav__mobile-link">Waxing</a>
-      <a href="brow-and-lash.html" class="nav__mobile-link">Brow &amp; Lash</a>
+      <a href="index.html" class="nav__mobile-link">Home</a>
+      <a href="facials.html" class="nav__mobile-link">Custom Facials</a>
+      <a href="hydrafacial.html" class="nav__mobile-link">HydraFacial</a>
       <a href="microneedling.html" class="nav__mobile-link">Microneedling</a>
       <a href="laser.html" class="nav__mobile-link">Laser Hair Reduction</a>
-      <a href="permanent-makeup.html" class="nav__mobile-link">Permanent Makeup</a>
-      <a href="advanced-services.html" class="nav__mobile-link">Advanced Services</a>
+      <a href="brow-and-lash.html" class="nav__mobile-link">Brow &amp; Lash</a>
+      <a href="house-calls.html" class="nav__mobile-link">House Calls</a>
+      <a href="rewards.html" class="nav__mobile-link">Rewards</a>
+      <a href="memberships.html" class="nav__mobile-link">Memberships</a>
+      <a href="gift-cards.html" class="nav__mobile-link">Gift Cards</a>
       <a href="the-skin-edit.html" class="nav__mobile-link">The Skin Edit</a>
       <a href="about.html" class="nav__mobile-link">About</a>
       <a href="book.html" class="btn btn--primary nav__mobile-cta">Book an Appointment</a>
@@ -221,6 +223,44 @@
 
 
     <!-- ==================================================================
+         SEASONAL BANNER — Mother's Day (active through May 11, 2026)
+         ================================================================== -->
+    <section class="promo-banner promo-banner--mothers-day" style="background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-dark) 100%); color: var(--color-cream); padding: var(--space-10) var(--space-6); text-align:center;">
+      <div class="container container--narrow">
+        <p class="eyebrow" style="color: var(--color-cream); opacity: 0.85;">Mother&rsquo;s Day &middot; May 11</p>
+        <h2 style="color: var(--color-cream); margin-top: var(--space-2);">Give Mom the Gift of Glow</h2>
+        <p style="margin-top: var(--space-4); max-width: 48ch; margin-left:auto; margin-right:auto;">Digital gift cards from $50 to $150 &mdash; delivered instantly.</p>
+        <a href="mothers-day.html" class="btn btn--outline" style="margin-top: var(--space-6); border-color: var(--color-cream); color: var(--color-cream);">Shop Mother&rsquo;s Day Gift Cards</a>
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         NEW PROGRAMS BANNER — Rewards + Memberships
+         ================================================================== -->
+    <section class="section--sage" aria-labelledby="new-programs-heading">
+      <div class="container">
+        <header class="section-header--center">
+          <p class="eyebrow">New at Rocky Mountain Skin</p>
+          <h2 id="new-programs-heading">Rewards &amp; Memberships Are Here</h2>
+        </header>
+        <div class="grid-2" style="margin-top: var(--space-10);">
+          <a href="rewards.html" class="card" style="text-decoration:none; color:inherit; padding: var(--space-8);"><div class="card__body">
+            <p class="eyebrow" style="color: var(--color-gold);">Rocky Mountain Rewards</p>
+            <h3 style="margin-top: var(--space-2);">Your Loyalty, Elevated</h3>
+            <p style="margin-top: var(--space-3);">Earn points every visit and redeem for complimentary add-ons, treatments, and exclusive perks.</p>
+            <p style="margin-top: var(--space-4); color: var(--color-gold); font-weight: 500;">See the rewards &rarr;</p>
+          </div></a>
+          <a href="memberships.html" class="card" style="text-decoration:none; color:inherit; padding: var(--space-8);"><div class="card__body">
+            <p class="eyebrow" style="color: var(--color-gold);">Membership Plans</p>
+            <h3 style="margin-top: var(--space-2);">Your Skin. Your Ritual.</h3>
+            <p style="margin-top: var(--space-3);">Monthly facials, brow, and body rituals at members-only pricing &mdash; plus 2x loyalty points.</p>
+            <p style="margin-top: var(--space-4); color: var(--color-gold); font-weight: 500;">Choose your plan &rarr;</p>
+          </div></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================
          VALUE STRIP — why choose RMS
          H2: section heading, not keyword-stuffed — describes content accurately
          ================================================================== -->
@@ -275,7 +315,7 @@
 
         <div class="grid-3" style="grid-template-columns: repeat(3, 1fr); gap: var(--space-5);">
 
-          <a href="facials.html" class="service-card" aria-label="Facials — learn more">
+          <a href="facials.html" class="service-card" aria-label="Custom Facials — learn more">
             <!-- REPLACE src with a facial service photo -->
             <img
               src="images/service-facials.jpg"
@@ -287,7 +327,7 @@
             >
             <div class="service-card__content">
               <p class="eyebrow service-card__eyebrow">Signature Service</p>
-              <h3 class="service-card__title">Facials</h3>
+              <h3 class="service-card__title">Custom Facials</h3>
               <p class="service-card__desc">
                 Every facial is built around your skin's unique needs — no two visits are alike.
               </p>
@@ -713,14 +753,11 @@
         <nav aria-label="Services footer navigation">
           <p class="footer__heading">Services</p>
           <ul class="footer__links" role="list">
-            <li><a href="facials.html" class="footer__link">Facials</a></li>
-            <li><a href="body-treatments.html" class="footer__link">Body Treatments</a></li>
-            <li><a href="waxing.html" class="footer__link">Waxing</a></li>
-            <li><a href="brow-and-lash.html" class="footer__link">Brow &amp; Lash</a></li>
+            <li><a href="facials.html" class="footer__link">Custom Facials</a></li>
+            <li><a href="hydrafacial.html" class="footer__link">HydraFacial</a></li>
             <li><a href="microneedling.html" class="footer__link">Microneedling</a></li>
             <li><a href="laser.html" class="footer__link">Laser Hair Reduction</a></li>
-            <li><a href="permanent-makeup.html" class="footer__link">Permanent Makeup</a></li>
-            <li><a href="advanced-services.html" class="footer__link">Advanced Services</a></li>
+            <li><a href="brow-and-lash.html" class="footer__link">Brow &amp; Lash</a></li><li><a href="house-calls.html" class="footer__link">House Calls</a></li>
           </ul>
         </nav>
 
@@ -728,7 +765,7 @@
         <nav aria-label="Site footer navigation">
           <p class="footer__heading">Explore</p>
           <ul class="footer__links" role="list">
-            <li><a href="the-skin-edit.html" class="footer__link">The Skin Edit</a></li>
+            <li><a href="rewards.html" class="footer__link">Rewards</a></li><li><a href="memberships.html" class="footer__link">Memberships</a></li><li><a href="gift-cards.html" class="footer__link">Gift Cards</a></li><li><a href="the-skin-edit.html" class="footer__link">The Skin Edit</a></li>
             <li><a href="about.html" class="footer__link">About Jake</a></li>
             <li><a href="book.html" class="footer__link">Book Now</a></li>
             <li><a href="microneedling-guide.html" class="footer__link">Free Microneedling Guide</a></li>
