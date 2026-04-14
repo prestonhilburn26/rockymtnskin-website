@@ -91,6 +91,13 @@
   white-space: nowrap;
 }
 
+/* Reward-tier list rows: name left, points flush right */
+.reward-list { list-style: none; padding: 0; margin-top: var(--space-6); display: flex; flex-direction: column; gap: var(--space-3); }
+.reward-list li { display: flex; justify-content: space-between; align-items: baseline; gap: var(--space-4); border-bottom: 1px dotted var(--color-rule); padding-bottom: var(--space-2); }
+.reward-list li:last-child { border-bottom: none; padding-bottom: 0; }
+.reward-list li span { flex: 1 1 auto; line-height: 1.35; }
+.reward-list li strong { flex: 0 0 auto; white-space: nowrap; color: var(--color-gold); font-weight: 500; }
+
 /* Tighter tracking at narrower desktop widths so all 8 items fit */
 @media (max-width: 1200px) {
   .nav__links { gap: var(--space-4); }
