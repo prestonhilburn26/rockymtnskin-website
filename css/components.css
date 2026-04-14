@@ -75,7 +75,8 @@
 .nav__links {
   display: flex;
   align-items: center;
-  gap: var(--space-8);
+  gap: var(--space-5);
+  flex-wrap: nowrap;
 }
 
 .nav__link {
@@ -87,6 +88,14 @@
   text-decoration: none;
   position: relative;
   transition: color var(--transition);
+  white-space: nowrap;
+}
+
+/* Tighter tracking at narrower desktop widths so all 8 items fit */
+@media (max-width: 1200px) {
+  .nav__links { gap: var(--space-4); }
+  .nav__link { letter-spacing: 0.02em; }
+  .nav__logo-tagline { display: none; }
 }
 
 .nav__link::after {
